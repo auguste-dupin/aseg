@@ -1,0 +1,65 @@
+.pWindow {
+    border-radius: 10px;
+    margin: 20px;
+    -webkit-box-shadow: 5px 5px 12px 5px rgba(0,0,0,0.55); 
+    box-shadow: 5px 5px 12px 5px rgba(0,0,0,0.55);
+    padding: 20px;
+}
+
+.paciente > span {
+    margin: 5px;
+}
+
+.pacTopbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+}
+
+.right > * {
+    display: flex;
+    background-color: #c8e6cb;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: row;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    /* border: 1px violet; */
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 12px 5px rgba(0,0,0,0.15); 
+    box-shadow: 5px 5px 12px 5px rgba(0,0,0,0.15);
+}
+
+.table {
+    height: 400px;
+    width: 100%
+}
+
+.userListEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.userListDelete {
+    color: red;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: hsl(0, 0, 100);
+}
+
+.userListDelete:hover {
+    background-color: rgba(0,0,0,0.15);
+}
